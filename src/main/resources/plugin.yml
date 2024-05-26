@@ -1,0 +1,13 @@
+name: Masks
+version: '${project.version}'
+main: plugin.masks.Masks
+api-version: '1.20'
+authors: [zhaok1]
+description: Wearable Player Masks
+commands:
+  mask:
+    description: Open the mask selection menu.
+    usage: /mask
+  masks:
+    description: Open the mask selection menu.
+    usage: /masks
