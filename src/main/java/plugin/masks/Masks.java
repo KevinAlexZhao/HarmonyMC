@@ -11,6 +11,9 @@ public final class Masks extends JavaPlugin {
         getCommand("mask").setExecutor(new MaskCommand(this));
         getCommand("masks").setExecutor(new MaskCommand(this));
         getServer().getPluginManager().registerEvents(new GUIManager(this), this);
+
+        // debug
+        //getLogger().info("Loaded configuration: " + getConfig().saveToString());
     }
 
     @Override

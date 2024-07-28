@@ -1,0 +1,187 @@
+# Author zhaok1
+# To use another player's head use the format below:
+
+#masks:
+#  customPlayer:
+#    skin: "Notch"  # Use the head of the player 'Notch'
+#    displayName: "&e&lCustom Player Mask"
+#    effects:
+#      - type: "INVISIBILITY"
+#        duration: 6000
+#        amplifier: 1
+#    permission: "masks.customPlayer"
+
+masks:
+  zombie:
+    skin: "MHF_Zombie"
+    displayName: "&2&lZombie Mask"
+    effects:
+      - type: "STRENGTH"
+        duration: 999999999
+        amplifier: 1
+    permission: "masks.zombie"
+  cheetah:
+    skin: "centali"
+    displayName: "&6&lCheetah Mask"
+    effects:
+      - type: "SPEED"
+        duration: 999999999
+        amplifier: 1
+    permission: "masks.cheetah"
+  panther:
+    skin: "Hynobi"
+    displayName: "&8&lPanther Mask"
+    effects:
+      - type: "JUMP_BOOST"
+        duration: 999999999
+        amplifier: 1
+    permission: "masks.panther"
+  samurai:
+    skin: "samurai"
+    displayName: "&4&lSamurai Mask"
+    effects:
+      - type: "STRENGTH"
+        duration: 999999999
+        amplifier: 0
+      - type: "RESISTANCE"
+        duration: 999999999
+        amplifier: 1
+    permission: "masks.samurai"
+  miner:
+    skin: "DirtyMimi"
+    displayName: "&e&lMiner Mask"
+    effects:
+      - type: "HASTE"
+        duration: 999999999
+        amplifier: 2
+      - type: "NIGHT_VISION"
+        duration: 999999999
+        amplifier: 0
+    permission: "masks.miner"
+  ghost:
+    skin: "klerex"
+    displayName: "&f&lGhost Mask"
+    effects:
+      - type: "INVISIBILITY"
+        duration: 999999999
+        amplifier: 0
+    permission: "masks.ghost"
+  ninja:
+    skin: "Wolveron"
+    displayName: "&9&lNinja Mask"
+    effects:
+      - type: "SPEED"
+        duration: 999999999
+        amplifier: 1
+      - type: "JUMP_BOOST"
+        duration: 999999999
+        amplifier: 1
+    permission: "masks.ninja"
+  trader:
+    skin: "Twoslende"
+    displayName: "&5&lTrader Mask"
+    effects:
+      - type: "HERO_OF_THE_VILLAGE"
+        duration: 999999999
+        amplifier: 0
+    permission: "masks.trader"
+  healer:
+    skin: "Doinysus"
+    displayName: "&d&lHealer Mask"
+    effects:
+      - type: "SATURATION"
+        duration: 999999999
+        amplifier: 0
+    permission: "masks.healer"
+  blaze:
+    skin: "MHF_Blaze"
+    displayName: "&6&lBlaze Mask"
+    effects:
+      - type: "FIRE_RESISTANCE"
+        duration: 999999999
+        amplifier: 0
+    permission: "masks.blaze"
+  knight:
+    skin: "TheWarpedMage"
+    displayName: "&2&lKnight Mask"
+    effects:
+      - type: "ABSORPTION"
+        duration: 999999999
+        amplifier: 0
+      - type: "STRENGTH"
+        duration: 999999999
+        amplifier: 0
+    permission: "masks.knight"
+  captain:
+    skin: "4L8P"
+    displayName: "&3&lCaptain Mask"
+    effects:
+      - type: "ABSORPTION"
+        duration: 999999999
+        amplifier: 1
+      - type: "STRENGTH"
+        duration: 999999999
+        amplifier: 0
+    permission: "masks.captain"
+  commander:
+    skin: "joel007br"
+    displayName: "&9&lCommander Mask"
+    effects:
+      - type: "STRENGTH"
+        duration: 999999999
+        amplifier: 0
+      - type: "SPEED"
+        duration: 999999999
+        amplifier: 0
+      - type: "ABSORPTION"
+        duration: 999999999
+        amplifier: 1
+    permission: "masks.commander"
+  marshal:
+    skin: "Darksaber55"
+    displayName: "&6&lMarshal Mask"
+    effects:
+      - type: "STRENGTH"
+        duration: 999999999
+        amplifier: 0
+      - type: "SPEED"
+        duration: 999999999
+        amplifier: 0
+      - type: "ABSORPTION"
+        duration: 999999999
+        amplifier: 2
+    permission: "masks.marshal"
+  warlord:
+    skin: "Maxdark172"
+    displayName: "&5&lWarlord Mask"
+    effects:
+      - type: "STRENGTH"
+        duration: 999999999
+        amplifier: 1
+      - type: "SPEED"
+        duration: 999999999
+        amplifier: 1
+      - type: "ABSORPTION"
+        duration: 999999999
+        amplifier: 1
+    permission: "masks.warlord"
+  void:
+    skin: "FrescoPl"
+    displayName: "&4&lVoid Mask"
+    effects:
+      - type: "STRENGTH"
+        duration: 999999999
+        amplifier: 2
+      - type: "SPEED"
+        duration: 999999999
+        amplifier: 2
+      - type: "GLOWING"
+        duration: 999999999
+        amplifier: 3
+      - type: "FIRE_RESISTANCE"
+        duration: 999999999
+        amplifier: 0
+      - type: "ABSORPTION"
+        duration: 999999999
+        amplifier: 1
+    permission: "masks.void"

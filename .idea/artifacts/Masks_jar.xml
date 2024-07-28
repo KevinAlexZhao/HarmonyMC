@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Masks:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Masks_jar</output-path>
+    <root id="archive" name="Masks.jar">
+      <element id="module-output" name="Masks" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/plugin.yml" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/main/resources/config.yml" />
+    </root>
+  </artifact>
+</component>
