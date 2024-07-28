@@ -1,0 +1,27 @@
+name: PlayerEmotes
+version: '${project.version}'
+main: plugin.playeremotes.PlayerEmotes
+api-version: '1.20'
+authors: [zhaok1]
+description: Simple. Fun. Player Emotes.
+commands:
+  slap:
+    description: Slap another player.
+  lol:
+    description: Laugh out loud at another player.
+  rofl:
+    description: Roll on the floor laughing at another player.
+  love:
+    description: Show love to another player.
+  boop:
+    description: Boop another player.
+  spank:
+    description: Spank another player.
+  cry:
+    description: Cry.
+  kiss:
+    description: Kiss another player.
+  lick:
+    description: Lick another player.
+  emote:
+    description: List all available emotes.
