@@ -1,0 +1,13 @@
+name: InfiniteBuckets
+version: '1.0'
+main: plugin.infinitebuckets.InfiniteBuckets
+api-version: '1.20'
+authors: [zhaok1]
+
+commands:
+  infwater:
+    description: Get or give infinite water buckets.
+    usage: /<command> <get|give> <amount> [player]
+  inflava:
+    description: Get or give infinite lava buckets.
+    usage: /<command> <get|give> <amount> [player]
